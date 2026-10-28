@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #8a8e94;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(imagens/bg-4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.topo {
+  text-align: center;
+  padding: 80px 20px 40px;
+  color: white;
+}
+
+.topo h1 {
+    font-size: 56px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+}
+
+.topo p {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid;
+}
+
+.container {
+    background: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 10px; 
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  height: 154px;
+}
+
+.card h2 {
+  background: #3d3d3d;
+  color: white;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: normal;
+}
